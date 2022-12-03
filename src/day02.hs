@@ -1,3 +1,4 @@
+module Day02 where
 import Data.List
 
 data Move = Rock | Paper | Scissors deriving (Eq, Show)
@@ -60,7 +61,8 @@ parseState "X" = Lose
 parseState "Y" = Draw
 parseState "Z" = Win
 
+main :: IO ()
 main = do
-    input <- readFile "input02.txt"
+    input <- readFile "inputs/input02.txt"
     print (part1 input)
     print (part2 input)
