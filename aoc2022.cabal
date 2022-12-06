@@ -64,7 +64,9 @@ executable aoc2022
     other-modules: Day01,
                    Day02,
                    Day03,
-                   Day04
+                   Day04,
+                   Day05,
+                   Day06
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
